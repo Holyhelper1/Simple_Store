@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const Header = () => {
   return (
       <Typography variant="h3" p={0} >
-        <Link to="/">
+        <Link to="/Simple_Store">
           Simple Store
         </Link>
       </Typography>
