@@ -12,6 +12,7 @@ export const ProductsPage = () => {
 
   return (
     <Box sx={{ marginTop: '64px' }}>
+      Show goods on page &nbsp;
       <select
         value={pagination}
         onChange={(e) => setPagination(Number(e.target.value))}

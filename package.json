@@ -1,4 +1,5 @@
 {
+  "homepage": "https://holyhelper1.github.io/Simple_Store",
   "name": "test-react-ts-redux-toolkit",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,8 @@
   "scripts": {
     "dev": "vite",
     "start": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
